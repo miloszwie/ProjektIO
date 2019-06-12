@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+.banner-container {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.banner > img {
+    margin: 0 auto;
+}
+
+.products-preview {
+    background-color: #fff;
+}
+
+.product-description {
+    margin: 20px 0;
+}
+
+.product-preview img {
+    max-width: 900px;
+}
+
+.product {
+    margin: 10px;
+    flex: 0 0 30%;
+    max-width: 30%;
+    -webkit-box-shadow: 0 0 24px 5px rgba(0,0,0,.12);
+    -moz-box-shadow: 0 0 24px 5px rgba(0,0,0,.12);
+    box-shadow: 0 0 24px 5px rgba(0,0,0,.12);
+}
+
+.product:hover {
+    -webkit-box-shadow: 0 0 32px 7px rgba(0,0,0,.35);
+    -moz-box-shadow: 0 0 32px 7px rgba(0,0,0,.35);
+    box-shadow: 0 0 32px 7px rgba(0,0,0,.35);
+}
+
+.product-title {
+    font-size: 20px;
+}
+
+.product-link:link,
+.product-link:visited,
+.product-link:hover,
+.product-link:active {
+    color: #212529;
+    text-decoration: none;    
+}
+
+.product-but-btn {
+    float: right;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.basket > img {
+    width: 160px;
+}
+
+.basket-body {
+    display: none;
+}
+
+.basket-products {
+    padding: 0;
+}
+
+.basket-products li {
+    list-style-type: none;
+}
+
+.basket-remove-item {
+    float: right;
+    cursor: pointer;
+}
+
+.product-preview {
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.ahashakeheartache {
+    -webkit-animation: kf_shake 0.4s 1 linear;
+    -moz-animation: kf_shake 0.4s 1 linear;
+    -o-animation: kf_shake 0.4s 1 linear;
+}
+@-webkit-keyframes kf_shake {
+    0% { -webkit-transform: translate(30px); }
+    20% { -webkit-transform: translate(-30px); }
+    40% { -webkit-transform: translate(15px); }
+    60% { -webkit-transform: translate(-15px); }
+    80% { -webkit-transform: translate(8px); }
+    100% { -webkit-transform: translate(0px); }
+}
+@-moz-keyframes kf_shake {
+    0% { -moz-transform: translate(30px); }
+    20% { -moz-transform: translate(-30px); }
+    40% { -moz-transform: translate(15px); }
+    60% { -moz-transform: translate(-15px); }
+    80% { -moz-transform: translate(8px); }
+    100% { -moz-transform: translate(0px); }
+}
+@-o-keyframes kf_shake {
+    0% { -o-transform: translate(30px); }
+    20% { -o-transform: translate(-30px); }
+    40% { -o-transform: translate(15px); }
+    60% { -o-transform: translate(-15px); }
+    80% { -o-transform: translate(8px); }
+    100% { -o-origin-transform: translate(0px); }
+}
